@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:three_plugin_flutter/serialization/JsonPlugin.dart';
 
+import 'image_picker/ImagePickerPlugin.dart';
 import 'shared_preferences/SharedPreferencesPlugin.dart';
 import 'webview/WebViewPlugin.dart';
 
@@ -75,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: SharedPreferencesPlugin(),
+      body: ImagePickerPlugin(),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
