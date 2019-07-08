@@ -7,7 +7,7 @@
 
 
 #使用方法
-#  [点击查看具体用法](https://github.com/pandao/editor.md "Heading link")
+#  [点击查看具体用法](https://github.com/fluttercommunity/flutter_webview_plugin "Heading link")
 WebView函数
 Future<Null> launch(String url, {
    Map<String, String> headers: null,
