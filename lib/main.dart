@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:three_plugin_flutter/serialization/JsonPlugin.dart';
+import 'package:three_plugin_flutter/video_player/VideoPlayerPlugin.dart';
 
 import 'event_bus/EventBusPlugin.dart';
 import 'image_picker/ImagePickerPlugin.dart';
@@ -77,12 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: EventBusPlugin(),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      body: VideoPlayerPlugin(),
     );
   }
 }
