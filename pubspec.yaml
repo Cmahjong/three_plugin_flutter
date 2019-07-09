@@ -34,6 +34,8 @@ dependencies:
   shared_preferences: ^0.5.3+2
   #图片选择
   image_picker: ^0.6.0+11
+  #数据传递
+  event_bus: ^1.1.0
 
 
 dev_dependencies:
